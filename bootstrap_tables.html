@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    </head>
+    <body>
+        <div class="container">
+            
+            <h2>
+                Simple Table
+            </h2>
+            <div class="col-md-6">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Profile Pic</th>
+                            <th>Age</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bucky Roberts</td>
+                            <td><img src="dog.jpg" class="rounded-circle" class="img-fluid" height="100" width="100"></td>
+                            <td>74</td>
+                            <td>8,786</td>
+                        </tr>
+                        <tr>
+                            <td>Lawdog</td>
+                            <td><img src="guy.jpg" class="rounded-circle" class="img-fluid" height="100" width="100"></td>
+                            <td>23</td>
+                            <td>128,786</td>
+                        </tr>
+                        <tr>
+                            <td>Ashleyy Ho</td>
+                            <td><img src="girl.jpg" class="rounded-circle" class="img-fluid" height="100" width="100"></td>
+                            <td>85</td>
+                            <td>36</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <a class="btn btn-primary" data-toggle="collapse" href="#pic">View Picture</a>
+            
+            <div class="collapse" id="pic">
+                <img class="img-fluid" src="girl.jpg" height="400" width="400">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a class="btn btn-primary" data-toggle="collapse" href="#vid" aria-expanded="false" aria-controls="vid">Hide Video</a>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/ClHu3XQBnGU" class="collapse" id="vid"></iframe>
+            </div>
+        </div>
+    </body>
+
+
+</html>

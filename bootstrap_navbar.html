@@ -1,0 +1,90 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content" aria-controls="content" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-header mr-auto">
+                <a href="bootstrap_navbar.html" class="navbar-brand">Portfolio</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="content">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                            Contact
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Phone</a>
+                            <a class="dropdown-item" href="#">Email</a>
+                            <a class="dropdown-item" href="#">Social Media</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">Send a letter</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <p class="nav-link">Thanks for coming to my page!</p>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-md-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-lg-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <h2>
+            Cards: Section of the page with seperate background and border
+        </h2>
+        <div class="card col-md-2">
+            <img class="card-img-top" src="guy.jpg" alt="card top image">
+            <div class="card-body">
+                <h4 class="card-title">
+                    Title of card
+                </h4>
+                <p class="card-text">
+                    Example text for card
+                </p>
+                <a class="btn btn-primary">Do Something!</a>
+            </div>
+        </div>
+        <h2>
+            Alerts: Like cards, but can be success danger or info themed.
+        </h2>
+        <h2 class="alert alert-success">Success alert! alert-success</h2>
+        <h2 class="alert alert-danger">Failure alert! alert-danger</h2>
+        <h2 class="alert alert-info">Informative alert! alert-info</h2>
+        <h2 class="alert alert-primary">Primary alert! alert-primary<a href="#" class="alert-link">With an alert-link!</a></h2>
+        <h2 class="alert alert-secondary">Secondary alert! alert-secondary</h2>
+        <h2 class="alert alert-warning">Warning alert! alert-warning</h2>
+        <h2 class="alert alert-light">Light alert! alert-light</h2>
+        <h2 class="alert alert-dark">Dark alert! alert-dark</h2>
+        <div class="alert alert-info alert-dismissable fade show">
+            <strong>Yay! An alert I can close!</strong>
+            <strong>alert-dismissable + fade + show</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&CircleTimes;</span>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
